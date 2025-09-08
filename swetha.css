@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6fa;
+    color: #333;
+}
+
+header {
+    background: #35477d;
+    color: #fff;
+    padding: 30px 0 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+header h2 {
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+main section {
+    background: #fff;
+    border-radius: 8px;
+    margin: 30px 0;
+    padding: 25px 20px;
+    box-shadow: 0 2px 8px rgba(53, 71, 125, 0.06);
+}
+
+.projects-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 18px 15px;
+    width: 250px;
+    box-shadow: 0 1px 4px rgba(53, 71, 125, 0.09);
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.skills-list li {
+    background: #35477d;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 18px;
+    font-size: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 8px 10px;
+    border: 1px solid #b0b8c1;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #f7f9fc;
+}
+
+form button {
+    background: #35477d;
+    color: #fff;
+    border: none;
+    padding: 12px 0;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+form button:hover {
+    background: #24325f;
+}
+
+footer {
+    background: #24325f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
